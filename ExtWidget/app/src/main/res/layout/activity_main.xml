@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ext.android.widget.MainActivity">
+
+    <ext.android.widget.DrawablesClickTextView
+        android:id="@+id/drawables_click_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="DrawablesClickTextView"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:padding="19dp"
+        app:drawableClickPadding="19dp"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:drawableTop="@mipmap/ic_launcher"
+        android:drawableRight="@mipmap/ic_launcher"
+        android:drawableBottom="@mipmap/ic_launcher" />
+</RelativeLayout>
